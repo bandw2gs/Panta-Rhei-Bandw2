@@ -760,3 +760,9 @@ Entries:
       message: Removed harpy default marking
   id: 94
   time: '2026-02-28T21:22:49.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Fix
+      message: Tajaran know their own language again.
+  id: 95
+  time: '2026-02-28T21:25:11.0000000+00:00'
