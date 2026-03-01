@@ -1484,7 +1484,7 @@
 
 - type: loadoutGroup
   id: HeadofSecurityJumpsuit
-  parent: [FloofJumpsuits] # Floofstation
+  parent: [FloofSecurityJumpsuits, FloofJumpsuits] # Floofstation
   name: loadout-group-head-of-security-jumpsuit
   loadouts:
   - HeadofSecurityJumpsuit
@@ -1597,7 +1597,7 @@
 
 - type: loadoutGroup
   id: SecurityJumpsuit
-  parent: [FloofJumpsuits] # Floofstation
+  parent: [FloofSecurityJumpsuits, FloofJumpsuits] # Floofstation
   name: loadout-group-security-jumpsuit
   loadouts:
   - SecurityJumpsuit
@@ -1760,7 +1760,7 @@
 
 - type: loadoutGroup
   id: ChiefMedicalOfficerOuterClothing
-  parent: [FloofOuterClothing] # Floofstation
+  parent: [FloofMedicalOuterClothing, FloofOuterClothing] # Floofstation
   name: loadout-group-chief-medical-officer-outerclothing
   minLimit: 0
   loadouts:
@@ -1824,7 +1824,7 @@
 
 - type: loadoutGroup
   id: MedicalDoctorOuterClothing
-  parent: [FloofOuterClothing] # Floofstation
+  parent: [FloofMedicalOuterClothing, FloofOuterClothing] # Floofstation
   name: loadout-group-medical-doctor-outerclothing
   minLimit: 0
   loadouts:
@@ -1834,7 +1834,7 @@
 
 - type: loadoutGroup
   id: MedicalBackpack
-  parent: [FloofBackpacks] # Floofstation
+  parent: [FloofParamedBackpacks, FloofBackpacks] # Floofstation
   name: loadout-group-medical-doctor-backpack
   loadouts:
   - MedicalDoctorBackpack
@@ -1909,7 +1909,7 @@
 
 - type: loadoutGroup
   id: ChemistOuterClothing
-  parent: [FloofOuterClothing] # Floofstation
+  parent: [FloofMedicalOuterClothing, FloofOuterClothing] # Floofstation
   name: loadout-group-chemist-outerclothing
   minLimit: 0
   loadouts:
@@ -1952,7 +1952,7 @@
 
 - type: loadoutGroup
   id: ParamedicOuterClothing
-  parent: [FloofOuterClothing] # Floofstation
+  parent: [FloofMedicalOuterClothing, FloofOuterClothing] # Floofstation
   name: loadout-group-paramedic-outerclothing
   minLimit: 0
   loadouts:

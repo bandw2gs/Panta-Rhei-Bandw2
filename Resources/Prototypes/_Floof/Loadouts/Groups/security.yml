@@ -1,0 +1,8 @@
+﻿# jumpsuits
+- type: loadoutGroup
+  id: FloofSecurityJumpsuits
+  abstract: true
+  minLimit: 1
+  maxLimit: 1
+  loadouts:
+  - UniformJumpsuitSecSummer
