@@ -786,6 +786,13 @@
   groupBy: "writing"
 
 - type: loadout
+  id: BookBase
+  storage:
+    back:
+    - BookBase
+  groupBy: "writing"
+
+- type: loadout
   id: Paper
   storage:
     back:
@@ -1093,6 +1100,34 @@
   storage:
     back:
     - LewdWand
+  groupBy: "lewd"
+
+- type: loadout
+  id: WhipPinkCrotch
+  storage:
+    back:
+    - WhipPinkCrotch
+  groupBy: "lewd"
+
+- type: loadout
+  id: WhipPink
+  storage:
+    back:
+    - WhipPink
+  groupBy: "lewd"
+
+- type: loadout
+  id: WhipTealCrotch
+  storage:
+    back:
+    - WhipTealCrotch
+  groupBy: "lewd"
+
+- type: loadout
+  id: WhipTeal
+  storage:
+    back:
+    - WhipTeal
   groupBy: "lewd"
 
 # eyes/glasses
