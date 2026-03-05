@@ -1039,3 +1039,11 @@ Entries:
         so now they been changed get dirtier slower.
   id: 128
   time: '2026-03-05T07:06:45.0000000+00:00'
+- author: ItsDzordz
+  changes:
+    - type: Add
+      message: Added 2 new plushies
+    - type: Tweak
+      message: Updated the slimetender texture
+  id: 129
+  time: '2026-03-05T07:22:25.0000000+00:00'
