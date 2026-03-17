@@ -1373,3 +1373,9 @@ Entries:
       message: Hunger should decay much slower than previously.
   id: 167
   time: '2026-03-16T07:24:31.0000000+00:00'
+- author: JFerrix
+  changes:
+    - type: Add
+      message: Added ADT markings prototype files
+  id: 168
+  time: '2026-03-15T22:59:27.0000000+00:00'
