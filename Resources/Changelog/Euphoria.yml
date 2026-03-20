@@ -1445,3 +1445,11 @@ Entries:
       message: Adjusted cock and pussy to fill exactly 1 normal glass (From 25 to 30)
   id: 176
   time: '2026-03-20T09:34:28.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Empty footprints should now be automatically deleted, I still have no
+        clue why they appear in the first place.
+  id: 177
+  time: '2026-03-20T23:36:29.0000000+00:00'
