@@ -1461,3 +1461,9 @@ Entries:
         making them more effective in general. Try them out!
   id: 178
   time: '2026-03-21T00:27:50.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Stations can revive optional station goals again.
+  id: 179
+  time: '2026-03-21T00:31:56.0000000+00:00'
