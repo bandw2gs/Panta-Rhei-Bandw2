@@ -1453,3 +1453,11 @@ Entries:
         clue why they appear in the first place.
   id: 177
   time: '2026-03-20T23:36:29.0000000+00:00'
+- author: Eagle0600
+  changes:
+    - type: Tweak
+      message: >-
+        Salicylic Acid and Polypyrylium Oligomers now heal brute damage evenly,
+        making them more effective in general. Try them out!
+  id: 178
+  time: '2026-03-21T00:27:50.0000000+00:00'
