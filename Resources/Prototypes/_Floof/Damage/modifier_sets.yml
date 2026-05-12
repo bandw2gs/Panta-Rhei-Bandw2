@@ -17,3 +17,17 @@
     Bloodloss: 1.35
     Shock: 1.25
     Radiation: 1.3
+
+- type: damageModifierSet
+  id: DermalArmor
+  flatReductions:
+    Blunt: 1.5
+    Slash: 1.5
+    Piercing: 1.5
+
+- type: damageModifierSet 
+  id: HeavyDermalArmor
+  flatReductions:
+    Blunt: 3
+    Slash: 3
+    Piercing: 3

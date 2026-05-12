@@ -306,3 +306,40 @@
           Blunt: 1
 # =================================================== #
 
+# =================== Armor traits ================== #
+
+- type: trait
+  id: BruteResistance
+  name: trait-BR-name
+  description: trait-claws-desc
+  category: BonusPhysical
+  cost: 5
+  conflicts:
+    - ImprovedBruteResistance
+  conditions:
+    - !type:HasJobCondition
+      invert: true
+      job: Prisoner
+  effects:
+    - !type:AddArmorTraitEffect
+      damageModifierSet: DermalArmor
+
+- type: trait
+  id: ImprovedBruteResistance
+  name: trait-IBR-name
+  description: trait-IBR-desc
+  category: BonusPhysical
+  cost: 10
+  conflicts:
+    - BruteResistance
+  conditions:
+    - !type:HasJobCondition
+      invert: true
+      job: Prisoner
+  effects:
+    - !type:AddArmorTraitEffect
+      damageModifierSet: HeavyDermalArmor
+# =================================================== #
+
+
+
